@@ -1,0 +1,30 @@
+[submodule "ios/mine/DeviceToken"]
+	path = ios/mine/DeviceToken
+	url = /Users/xinjun/src/MyProjects/ios/mine/DeviceToken
+[submodule "ios/mine/GetDeviceToken"]
+	path = ios/mine/GetDeviceToken
+	url = /Users/xinjun/src/MyProjects/ios/mine/GetDeviceToken
+[submodule "ios/mine/Login"]
+	path = ios/mine/Login
+	url = /Users/xinjun/src/MyProjects/ios/mine/Login
+[submodule "ios/mine/Login1"]
+	path = ios/mine/Login1
+	url = /Users/xinjun/src/MyProjects/ios/mine/Login1
+[submodule "ios/mine/NewLogin"]
+	path = ios/mine/NewLogin
+	url = /Users/xinjun/src/MyProjects/ios/mine/NewLogin
+[submodule "ios/mine/PrintDeviceToken"]
+	path = ios/mine/PrintDeviceToken
+	url = /Users/xinjun/src/MyProjects/ios/mine/PrintDeviceToken
+[submodule "ios/mine/SongMapTest"]
+	path = ios/mine/SongMapTest
+	url = /Users/xinjun/src/MyProjects/ios/mine/SongMapTest
+[submodule "ios/mine/StoryBoardTutorial"]
+	path = ios/mine/StoryBoardTutorial
+	url = /Users/xinjun/src/MyProjects/ios/mine/StoryBoardTutorial
+[submodule "ios/mine/TestUICallback"]
+	path = ios/mine/TestUICallback
+	url = /Users/xinjun/src/MyProjects/ios/mine/TestUICallback
+[submodule "ios/mine/mapview"]
+	path = ios/mine/mapview
+	url = /Users/xinjun/src/MyProjects/ios/mine/mapview
