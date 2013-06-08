@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD45B7F175B33D7002ED316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD45B7E175B33D7002ED316 /* UIKit.framework */; };
+		FDD45B81175B33D7002ED316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD45B80175B33D7002ED316 /* Foundation.framework */; };
+		FDD45B83175B33D7002ED316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD45B82175B33D7002ED316 /* CoreGraphics.framework */; };
+		FDD45B89175B33D7002ED316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD45B87175B33D7002ED316 /* InfoPlist.strings */; };
+		FDD45B8B175B33D7002ED316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD45B8A175B33D7002ED316 /* main.m */; };
+		FDD45B8F175B33D7002ED316 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD45B8E175B33D7002ED316 /* AppDelegate.m */; };
+		FDD45B91175B33D7002ED316 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD45B90175B33D7002ED316 /* Default.png */; };
+		FDD45B93175B33D7002ED316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD45B92175B33D7002ED316 /* Default@2x.png */; };
+		FDD45B95175B33D7002ED316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD45B94175B33D7002ED316 /* Default-568h@2x.png */; };
+		FDD45B98175B33D7002ED316 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD45B96175B33D7002ED316 /* MainStoryboard.storyboard */; };
+		FDD45BA3175B3488002ED316 /* CoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD45BA2175B3488002ED316 /* CoolViewController.m */; };
+		FDD45BA6175B36BD002ED316 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD45BA5175B36BD002ED316 /* CustomCellBackground.m */; };
+		FDD45BA9175B8DA7002ED316 /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD45BA8175B8DA7002ED316 /* TableHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDD45B7A175B33D7002ED316 /* CoolTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD45B7E175B33D7002ED316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDD45B80175B33D7002ED316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDD45B82175B33D7002ED316 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDD45B86175B33D7002ED316 /* CoolTableview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolTableview-Info.plist"; sourceTree = "<group>"; };
+		FDD45B88175B33D7002ED316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD45B8A175B33D7002ED316 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD45B8C175B33D7002ED316 /* CoolTableview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolTableview-Prefix.pch"; sourceTree = "<group>"; };
+		FDD45B8D175B33D7002ED316 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDD45B8E175B33D7002ED316 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDD45B90175B33D7002ED316 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDD45B92175B33D7002ED316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDD45B94175B33D7002ED316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDD45B97175B33D7002ED316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FDD45BA1175B3488002ED316 /* CoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolViewController.h; sourceTree = "<group>"; };
+		FDD45BA2175B3488002ED316 /* CoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolViewController.m; sourceTree = "<group>"; };
+		FDD45BA4175B36BD002ED316 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		FDD45BA5175B36BD002ED316 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		FDD45BA7175B8DA7002ED316 /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeaderView.h; sourceTree = "<group>"; };
+		FDD45BA8175B8DA7002ED316 /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD45B77175B33D7002ED316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD45B7F175B33D7002ED316 /* UIKit.framework in Frameworks */,
+				FDD45B81175B33D7002ED316 /* Foundation.framework in Frameworks */,
+				FDD45B83175B33D7002ED316 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD45B6F175B33D7002ED316 = {
+			isa = PBXGroup;
+			children = (
+				FDD45B84175B33D7002ED316 /* CoolTableview */,
+				FDD45B7D175B33D7002ED316 /* Frameworks */,
+				FDD45B7B175B33D7002ED316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD45B7B175B33D7002ED316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD45B7A175B33D7002ED316 /* CoolTableview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD45B7D175B33D7002ED316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD45B7E175B33D7002ED316 /* UIKit.framework */,
+				FDD45B80175B33D7002ED316 /* Foundation.framework */,
+				FDD45B82175B33D7002ED316 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD45B84175B33D7002ED316 /* CoolTableview */ = {
+			isa = PBXGroup;
+			children = (
+				FDD45B8D175B33D7002ED316 /* AppDelegate.h */,
+				FDD45B8E175B33D7002ED316 /* AppDelegate.m */,
+				FDD45B96175B33D7002ED316 /* MainStoryboard.storyboard */,
+				FDD45B85175B33D7002ED316 /* Supporting Files */,
+				FDD45BA1175B3488002ED316 /* CoolViewController.h */,
+				FDD45BA2175B3488002ED316 /* CoolViewController.m */,
+				FDD45BA4175B36BD002ED316 /* CustomCellBackground.h */,
+				FDD45BA5175B36BD002ED316 /* CustomCellBackground.m */,
+				FDD45BA7175B8DA7002ED316 /* TableHeaderView.h */,
+				FDD45BA8175B8DA7002ED316 /* TableHeaderView.m */,
+			);
+			path = CoolTableview;
+			sourceTree = "<group>";
+		};
+		FDD45B85175B33D7002ED316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD45B86175B33D7002ED316 /* CoolTableview-Info.plist */,
+				FDD45B87175B33D7002ED316 /* InfoPlist.strings */,
+				FDD45B8A175B33D7002ED316 /* main.m */,
+				FDD45B8C175B33D7002ED316 /* CoolTableview-Prefix.pch */,
+				FDD45B90175B33D7002ED316 /* Default.png */,
+				FDD45B92175B33D7002ED316 /* Default@2x.png */,
+				FDD45B94175B33D7002ED316 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD45B79175B33D7002ED316 /* CoolTableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD45B9E175B33D7002ED316 /* Build configuration list for PBXNativeTarget "CoolTableview" */;
+			buildPhases = (
+				FDD45B76175B33D7002ED316 /* Sources */,
+				FDD45B77175B33D7002ED316 /* Frameworks */,
+				FDD45B78175B33D7002ED316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolTableview;
+			productName = CoolTableview;
+			productReference = FDD45B7A175B33D7002ED316 /* CoolTableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD45B71175B33D7002ED316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Xinjun;
+			};
+			buildConfigurationList = FDD45B74175B33D7002ED316 /* Build configuration list for PBXProject "CoolTableview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDD45B6F175B33D7002ED316;
+			productRefGroup = FDD45B7B175B33D7002ED316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD45B79175B33D7002ED316 /* CoolTableview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD45B78175B33D7002ED316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD45B89175B33D7002ED316 /* InfoPlist.strings in Resources */,
+				FDD45B91175B33D7002ED316 /* Default.png in Resources */,
+				FDD45B93175B33D7002ED316 /* Default@2x.png in Resources */,
+				FDD45B95175B33D7002ED316 /* Default-568h@2x.png in Resources */,
+				FDD45B98175B33D7002ED316 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD45B76175B33D7002ED316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD45B8B175B33D7002ED316 /* main.m in Sources */,
+				FDD45B8F175B33D7002ED316 /* AppDelegate.m in Sources */,
+				FDD45BA3175B3488002ED316 /* CoolViewController.m in Sources */,
+				FDD45BA6175B36BD002ED316 /* CustomCellBackground.m in Sources */,
+				FDD45BA9175B8DA7002ED316 /* TableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDD45B87175B33D7002ED316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD45B88175B33D7002ED316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDD45B96175B33D7002ED316 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD45B97175B33D7002ED316 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD45B9C175B33D7002ED316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD45B9D175B33D7002ED316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD45B9F175B33D7002ED316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTableview/CoolTableview-Prefix.pch";
+				INFOPLIST_FILE = "CoolTableview/CoolTableview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD45BA0175B33D7002ED316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTableview/CoolTableview-Prefix.pch";
+				INFOPLIST_FILE = "CoolTableview/CoolTableview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD45B74175B33D7002ED316 /* Build configuration list for PBXProject "CoolTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD45B9C175B33D7002ED316 /* Debug */,
+				FDD45B9D175B33D7002ED316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD45B9E175B33D7002ED316 /* Build configuration list for PBXNativeTarget "CoolTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD45B9F175B33D7002ED316 /* Debug */,
+				FDD45BA0175B33D7002ED316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD45B71175B33D7002ED316 /* Project object */;
+}

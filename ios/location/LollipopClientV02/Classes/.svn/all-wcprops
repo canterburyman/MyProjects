@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes
+END
+RootView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/RootView.xib
+END
+Resources.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/Resources.h
+END
+KidAnnotationDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/KidAnnotationDelegate.h
+END
+LollipopClientV02AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.h
+END
+RootView.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/RootView.h
+END
+Resources.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/Resources.m
+END
+LollipopClientV02AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m
+END
+RootView.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/Classes/RootView.m
+END

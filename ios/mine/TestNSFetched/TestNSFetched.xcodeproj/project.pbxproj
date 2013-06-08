@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D458BD515369B66009AD062 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D458BD415369B66009AD062 /* UIKit.framework */; };
+		7D458BD715369B66009AD062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D458BD615369B66009AD062 /* Foundation.framework */; };
+		7D458BD915369B66009AD062 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D458BD815369B66009AD062 /* CoreGraphics.framework */; };
+		7D458BDB15369B66009AD062 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D458BDA15369B66009AD062 /* CoreData.framework */; };
+		7D458BE115369B66009AD062 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D458BDF15369B66009AD062 /* InfoPlist.strings */; };
+		7D458BE415369B66009AD062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458BE315369B66009AD062 /* main.m */; };
+		7D458BE715369B66009AD062 /* TestNSFetchedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458BE615369B66009AD062 /* TestNSFetchedAppDelegate.m */; };
+		7D458BEA15369B66009AD062 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D458BE815369B66009AD062 /* MainWindow.xib */; };
+		7D458BED15369B66009AD062 /* TestNSFetched.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D458BEB15369B66009AD062 /* TestNSFetched.xcdatamodeld */; };
+		7D458BF515369BF0009AD062 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458BF415369BF0009AD062 /* Student.m */; };
+		7D458BF915369C3C009AD062 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458BF715369C3C009AD062 /* StudentViewController.m */; };
+		7D458BFA15369C3C009AD062 /* StudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D458BF815369C3C009AD062 /* StudentViewController.xib */; };
+		7D458C1F153795FC009AD062 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C10153795FC009AD062 /* FlickrFetcher.m */; };
+		7D458C20153795FC009AD062 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C14153795FC009AD062 /* NSObject+SBJSON.m */; };
+		7D458C21153795FC009AD062 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C16153795FC009AD062 /* NSString+SBJSON.m */; };
+		7D458C22153795FC009AD062 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C18153795FC009AD062 /* SBJSON.m */; };
+		7D458C23153795FC009AD062 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C1A153795FC009AD062 /* SBJsonBase.m */; };
+		7D458C24153795FC009AD062 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C1C153795FC009AD062 /* SBJsonParser.m */; };
+		7D458C25153795FC009AD062 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C1E153795FC009AD062 /* SBJsonWriter.m */; };
+		7D458C301537A6A8009AD062 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D458C2F1537A6A8009AD062 /* CoreDataTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D458BD015369B66009AD062 /* TestNSFetched.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNSFetched.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D458BD415369B66009AD062 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D458BD615369B66009AD062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D458BD815369B66009AD062 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D458BDA15369B66009AD062 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D458BDE15369B66009AD062 /* TestNSFetched-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNSFetched-Info.plist"; sourceTree = "<group>"; };
+		7D458BE015369B66009AD062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D458BE215369B66009AD062 /* TestNSFetched-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestNSFetched-Prefix.pch"; sourceTree = "<group>"; };
+		7D458BE315369B66009AD062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D458BE515369B66009AD062 /* TestNSFetchedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSFetchedAppDelegate.h; sourceTree = "<group>"; };
+		7D458BE615369B66009AD062 /* TestNSFetchedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSFetchedAppDelegate.m; sourceTree = "<group>"; };
+		7D458BE915369B66009AD062 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7D458BEC15369B66009AD062 /* TestNSFetched.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestNSFetched.xcdatamodel; sourceTree = "<group>"; };
+		7D458BF315369BF0009AD062 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7D458BF415369BF0009AD062 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		7D458BF615369C3C009AD062 /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		7D458BF715369C3C009AD062 /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		7D458BF815369C3C009AD062 /* StudentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentViewController.xib; sourceTree = "<group>"; };
+		7D458C0E153795FC009AD062 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		7D458C0F153795FC009AD062 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		7D458C10153795FC009AD062 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		7D458C12153795FC009AD062 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7D458C13153795FC009AD062 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7D458C14153795FC009AD062 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7D458C15153795FC009AD062 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7D458C16153795FC009AD062 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7D458C17153795FC009AD062 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		7D458C18153795FC009AD062 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		7D458C19153795FC009AD062 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7D458C1A153795FC009AD062 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7D458C1B153795FC009AD062 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7D458C1C153795FC009AD062 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7D458C1D153795FC009AD062 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7D458C1E153795FC009AD062 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7D458C2E1537A6A8009AD062 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		7D458C2F1537A6A8009AD062 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D458BCD15369B66009AD062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D458BD515369B66009AD062 /* UIKit.framework in Frameworks */,
+				7D458BD715369B66009AD062 /* Foundation.framework in Frameworks */,
+				7D458BD915369B66009AD062 /* CoreGraphics.framework in Frameworks */,
+				7D458BDB15369B66009AD062 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D458BC515369B66009AD062 = {
+			isa = PBXGroup;
+			children = (
+				7D458BDC15369B66009AD062 /* TestNSFetched */,
+				7D458BD315369B66009AD062 /* Frameworks */,
+				7D458BD115369B66009AD062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D458BD115369B66009AD062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D458BD015369B66009AD062 /* TestNSFetched.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D458BD315369B66009AD062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D458BD415369B66009AD062 /* UIKit.framework */,
+				7D458BD615369B66009AD062 /* Foundation.framework */,
+				7D458BD815369B66009AD062 /* CoreGraphics.framework */,
+				7D458BDA15369B66009AD062 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D458BDC15369B66009AD062 /* TestNSFetched */ = {
+			isa = PBXGroup;
+			children = (
+				7D458C2E1537A6A8009AD062 /* CoreDataTableViewController.h */,
+				7D458C2F1537A6A8009AD062 /* CoreDataTableViewController.m */,
+				7D458C0D153795FC009AD062 /* FlickrFetcher */,
+				7D458BF615369C3C009AD062 /* StudentViewController.h */,
+				7D458BF715369C3C009AD062 /* StudentViewController.m */,
+				7D458BF315369BF0009AD062 /* Student.h */,
+				7D458BF415369BF0009AD062 /* Student.m */,
+				7D458BE515369B66009AD062 /* TestNSFetchedAppDelegate.h */,
+				7D458BE615369B66009AD062 /* TestNSFetchedAppDelegate.m */,
+				7D458BE815369B66009AD062 /* MainWindow.xib */,
+				7D458BEB15369B66009AD062 /* TestNSFetched.xcdatamodeld */,
+				7D458BDD15369B66009AD062 /* Supporting Files */,
+				7D458BF815369C3C009AD062 /* StudentViewController.xib */,
+			);
+			path = TestNSFetched;
+			sourceTree = "<group>";
+		};
+		7D458BDD15369B66009AD062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D458BDE15369B66009AD062 /* TestNSFetched-Info.plist */,
+				7D458BDF15369B66009AD062 /* InfoPlist.strings */,
+				7D458BE215369B66009AD062 /* TestNSFetched-Prefix.pch */,
+				7D458BE315369B66009AD062 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D458C0D153795FC009AD062 /* FlickrFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				7D458C0E153795FC009AD062 /* FlickrAPIKey.h */,
+				7D458C0F153795FC009AD062 /* FlickrFetcher.h */,
+				7D458C10153795FC009AD062 /* FlickrFetcher.m */,
+				7D458C11153795FC009AD062 /* JSON */,
+			);
+			path = FlickrFetcher;
+			sourceTree = "<group>";
+		};
+		7D458C11153795FC009AD062 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7D458C12153795FC009AD062 /* JSON.h */,
+				7D458C13153795FC009AD062 /* NSObject+SBJSON.h */,
+				7D458C14153795FC009AD062 /* NSObject+SBJSON.m */,
+				7D458C15153795FC009AD062 /* NSString+SBJSON.h */,
+				7D458C16153795FC009AD062 /* NSString+SBJSON.m */,
+				7D458C17153795FC009AD062 /* SBJSON.h */,
+				7D458C18153795FC009AD062 /* SBJSON.m */,
+				7D458C19153795FC009AD062 /* SBJsonBase.h */,
+				7D458C1A153795FC009AD062 /* SBJsonBase.m */,
+				7D458C1B153795FC009AD062 /* SBJsonParser.h */,
+				7D458C1C153795FC009AD062 /* SBJsonParser.m */,
+				7D458C1D153795FC009AD062 /* SBJsonWriter.h */,
+				7D458C1E153795FC009AD062 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D458BCF15369B66009AD062 /* TestNSFetched */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D458BF015369B66009AD062 /* Build configuration list for PBXNativeTarget "TestNSFetched" */;
+			buildPhases = (
+				7D458BCC15369B66009AD062 /* Sources */,
+				7D458BCD15369B66009AD062 /* Frameworks */,
+				7D458BCE15369B66009AD062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNSFetched;
+			productName = TestNSFetched;
+			productReference = 7D458BD015369B66009AD062 /* TestNSFetched.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D458BC715369B66009AD062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = UOW;
+			};
+			buildConfigurationList = 7D458BCA15369B66009AD062 /* Build configuration list for PBXProject "TestNSFetched" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D458BC515369B66009AD062;
+			productRefGroup = 7D458BD115369B66009AD062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D458BCF15369B66009AD062 /* TestNSFetched */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D458BCE15369B66009AD062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D458BE115369B66009AD062 /* InfoPlist.strings in Resources */,
+				7D458BEA15369B66009AD062 /* MainWindow.xib in Resources */,
+				7D458BFA15369C3C009AD062 /* StudentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D458BCC15369B66009AD062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D458BE415369B66009AD062 /* main.m in Sources */,
+				7D458BE715369B66009AD062 /* TestNSFetchedAppDelegate.m in Sources */,
+				7D458BED15369B66009AD062 /* TestNSFetched.xcdatamodeld in Sources */,
+				7D458BF515369BF0009AD062 /* Student.m in Sources */,
+				7D458BF915369C3C009AD062 /* StudentViewController.m in Sources */,
+				7D458C1F153795FC009AD062 /* FlickrFetcher.m in Sources */,
+				7D458C20153795FC009AD062 /* NSObject+SBJSON.m in Sources */,
+				7D458C21153795FC009AD062 /* NSString+SBJSON.m in Sources */,
+				7D458C22153795FC009AD062 /* SBJSON.m in Sources */,
+				7D458C23153795FC009AD062 /* SBJsonBase.m in Sources */,
+				7D458C24153795FC009AD062 /* SBJsonParser.m in Sources */,
+				7D458C25153795FC009AD062 /* SBJsonWriter.m in Sources */,
+				7D458C301537A6A8009AD062 /* CoreDataTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D458BDF15369B66009AD062 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D458BE015369B66009AD062 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D458BE815369B66009AD062 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D458BE915369B66009AD062 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D458BEE15369B66009AD062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D458BEF15369B66009AD062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7D458BF115369B66009AD062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNSFetched/TestNSFetched-Prefix.pch";
+				INFOPLIST_FILE = "TestNSFetched/TestNSFetched-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D458BF215369B66009AD062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNSFetched/TestNSFetched-Prefix.pch";
+				INFOPLIST_FILE = "TestNSFetched/TestNSFetched-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D458BCA15369B66009AD062 /* Build configuration list for PBXProject "TestNSFetched" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D458BEE15369B66009AD062 /* Debug */,
+				7D458BEF15369B66009AD062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D458BF015369B66009AD062 /* Build configuration list for PBXNativeTarget "TestNSFetched" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D458BF115369B66009AD062 /* Debug */,
+				7D458BF215369B66009AD062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D458BEB15369B66009AD062 /* TestNSFetched.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D458BEC15369B66009AD062 /* TestNSFetched.xcdatamodel */,
+			);
+			currentVersion = 7D458BEC15369B66009AD062 /* TestNSFetched.xcdatamodel */;
+			path = TestNSFetched.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D458BC715369B66009AD062 /* Project object */;
+}

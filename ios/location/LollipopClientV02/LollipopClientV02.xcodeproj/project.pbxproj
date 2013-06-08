@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LollipopClientV02AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LollipopClientV02AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		468F3108126A1F4F0080689B /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F3106126A1F4F0080689B /* RootView.m */; };
+		468F3109126A1F4F0080689B /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468F3107126A1F4F0080689B /* RootView.xib */; };
+		468F315D126A25610080689B /* DeviceListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F3158126A25610080689B /* DeviceListView.m */; };
+		468F315E126A25610080689B /* DeviceListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468F3159126A25610080689B /* DeviceListView.xib */; };
+		468F315F126A25610080689B /* AddDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F315B126A25610080689B /* AddDeviceView.m */; };
+		468F3160126A25610080689B /* AddDeviceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468F315C126A25610080689B /* AddDeviceView.xib */; };
+		468F318E126A29BE0080689B /* HttpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F3183126A29BE0080689B /* HttpController.m */; };
+		468F318F126A29BE0080689B /* HttpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F3185126A29BE0080689B /* HttpConnection.m */; };
+		468F3190126A29BE0080689B /* KidAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F3188126A29BE0080689B /* KidAnnotationView.m */; };
+		468F3191126A29BE0080689B /* KidAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F318A126A29BE0080689B /* KidAnnotation.m */; };
+		468F3192126A29BE0080689B /* MapViewContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F318D126A29BE0080689B /* MapViewContext.m */; };
+		468F319B126A29D80080689B /* BlueArea200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3193126A29D80080689B /* BlueArea200x200.png */; };
+		468F319C126A29D80080689B /* GreenDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3194126A29D80080689B /* GreenDot.png */; };
+		468F319D126A29D80080689B /* LightBlueDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3195126A29D80080689B /* LightBlueDot.png */; };
+		468F319E126A29D80080689B /* RedDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3196126A29D80080689B /* RedDot.png */; };
+		468F319F126A29D80080689B /* BlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3197126A29D80080689B /* BlueArrow.png */; };
+		468F31A0126A29D80080689B /* BlueDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3198126A29D80080689B /* BlueDot.png */; };
+		468F31A1126A29D80080689B /* LocateBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F3199126A29D80080689B /* LocateBlue.png */; };
+		468F31A2126A29D80080689B /* PinkDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 468F319A126A29D80080689B /* PinkDot.png */; };
+		468F31A6126A29ED0080689B /* TransportLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F31A4126A29ED0080689B /* TransportLayer.m */; };
+		468F32AE126A50C20080689B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468F32AD126A50C20080689B /* MapKit.framework */; };
+		468F32B0126A50CA0080689B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468F32AF126A50CA0080689B /* CoreLocation.framework */; };
+		4698D1FB126ACBDB00E1F9FA /* DotPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698D1F9126ACBDB00E1F9FA /* DotPickerView.m */; };
+		4698D1FC126ACBDB00E1F9FA /* DotPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4698D1FA126ACBDB00E1F9FA /* DotPickerView.xib */; };
+		4698D200126ACC0900E1F9FA /* Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698D1FF126ACC0900E1F9FA /* Resources.m */; };
+		7D1E8C0A1558AED400B603DD /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8BFF1558AED400B603DD /* NSObject+SBJSON.m */; };
+		7D1E8C0B1558AED400B603DD /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8C011558AED400B603DD /* NSString+SBJSON.m */; };
+		7D1E8C0C1558AED400B603DD /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8C031558AED400B603DD /* SBJSON.m */; };
+		7D1E8C0D1558AED400B603DD /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8C051558AED400B603DD /* SBJsonBase.m */; };
+		7D1E8C0E1558AED400B603DD /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8C071558AED400B603DD /* SBJsonParser.m */; };
+		7D1E8C0F1558AED400B603DD /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E8C091558AED400B603DD /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LollipopClientV02AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LollipopClientV02AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LollipopClientV02AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LollipopClientV02AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LollipopClientV02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LollipopClientV02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* LollipopClientV02_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LollipopClientV02_Prefix.pch; sourceTree = "<group>"; };
+		468F3105126A1F4F0080689B /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootView.h; path = Classes/RootView.h; sourceTree = "<group>"; };
+		468F3106126A1F4F0080689B /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootView.m; path = Classes/RootView.m; sourceTree = "<group>"; };
+		468F3107126A1F4F0080689B /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootView.xib; path = Classes/RootView.xib; sourceTree = "<group>"; };
+		468F3157126A25610080689B /* DeviceListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListView.h; sourceTree = "<group>"; };
+		468F3158126A25610080689B /* DeviceListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListView.m; sourceTree = "<group>"; };
+		468F3159126A25610080689B /* DeviceListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceListView.xib; sourceTree = "<group>"; };
+		468F315A126A25610080689B /* AddDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceView.h; sourceTree = "<group>"; };
+		468F315B126A25610080689B /* AddDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeviceView.m; sourceTree = "<group>"; };
+		468F315C126A25610080689B /* AddDeviceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddDeviceView.xib; sourceTree = "<group>"; };
+		468F3182126A29BE0080689B /* HttpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpController.h; sourceTree = "<group>"; };
+		468F3183126A29BE0080689B /* HttpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpController.m; sourceTree = "<group>"; };
+		468F3184126A29BE0080689B /* HttpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnection.h; sourceTree = "<group>"; };
+		468F3185126A29BE0080689B /* HttpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnection.m; sourceTree = "<group>"; };
+		468F3186126A29BE0080689B /* HttpDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpDelegate.h; sourceTree = "<group>"; };
+		468F3187126A29BE0080689B /* KidAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidAnnotationView.h; path = ../KidAnnotationView.h; sourceTree = "<group>"; };
+		468F3188126A29BE0080689B /* KidAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidAnnotationView.m; path = ../KidAnnotationView.m; sourceTree = "<group>"; };
+		468F3189126A29BE0080689B /* KidAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidAnnotation.h; path = ../KidAnnotation.h; sourceTree = "<group>"; };
+		468F318A126A29BE0080689B /* KidAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidAnnotation.m; path = ../KidAnnotation.m; sourceTree = "<group>"; };
+		468F318B126A29BE0080689B /* LocationReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationReport.h; path = ../LocationReport.h; sourceTree = "<group>"; };
+		468F318C126A29BE0080689B /* MapViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewContext.h; path = ../MapViewContext.h; sourceTree = "<group>"; };
+		468F318D126A29BE0080689B /* MapViewContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewContext.m; path = ../MapViewContext.m; sourceTree = "<group>"; };
+		468F3193126A29D80080689B /* BlueArea200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueArea200x200.png; sourceTree = "<group>"; };
+		468F3194126A29D80080689B /* GreenDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenDot.png; sourceTree = "<group>"; };
+		468F3195126A29D80080689B /* LightBlueDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlueDot.png; sourceTree = "<group>"; };
+		468F3196126A29D80080689B /* RedDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedDot.png; sourceTree = "<group>"; };
+		468F3197126A29D80080689B /* BlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueArrow.png; sourceTree = "<group>"; };
+		468F3198126A29D80080689B /* BlueDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueDot.png; sourceTree = "<group>"; };
+		468F3199126A29D80080689B /* LocateBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocateBlue.png; sourceTree = "<group>"; };
+		468F319A126A29D80080689B /* PinkDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkDot.png; sourceTree = "<group>"; };
+		468F31A3126A29ED0080689B /* TransportLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportLayer.h; sourceTree = "<group>"; };
+		468F31A4126A29ED0080689B /* TransportLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportLayer.m; sourceTree = "<group>"; };
+		468F31A5126A29ED0080689B /* TransportLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportLayerDelegate.h; sourceTree = "<group>"; };
+		468F32AD126A50C20080689B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		468F32AF126A50CA0080689B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4698D1F8126ACBDB00E1F9FA /* DotPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotPickerView.h; sourceTree = "<group>"; };
+		4698D1F9126ACBDB00E1F9FA /* DotPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotPickerView.m; sourceTree = "<group>"; };
+		4698D1FA126ACBDB00E1F9FA /* DotPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DotPickerView.xib; sourceTree = "<group>"; };
+		4698D1FD126ACBF800E1F9FA /* DotPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotPickerDelegate.h; sourceTree = "<group>"; };
+		4698D1FE126ACC0900E1F9FA /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
+		4698D1FF126ACC0900E1F9FA /* Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resources.m; sourceTree = "<group>"; };
+		4698D267126AD66200E1F9FA /* AddDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceDelegate.h; sourceTree = "<group>"; };
+		46D501D9126D6B930089C028 /* KidAnnotationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KidAnnotationDelegate.h; sourceTree = "<group>"; };
+		7D1E8BFD1558AED400B603DD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7D1E8BFE1558AED400B603DD /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7D1E8BFF1558AED400B603DD /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7D1E8C001558AED400B603DD /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7D1E8C011558AED400B603DD /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7D1E8C021558AED400B603DD /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		7D1E8C031558AED400B603DD /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		7D1E8C041558AED400B603DD /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7D1E8C051558AED400B603DD /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7D1E8C061558AED400B603DD /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7D1E8C071558AED400B603DD /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7D1E8C081558AED400B603DD /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7D1E8C091558AED400B603DD /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* LollipopClientV02-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LollipopClientV02-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				468F32AE126A50C20080689B /* MapKit.framework in Frameworks */,
+				468F32B0126A50CA0080689B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* LollipopClientV02AppDelegate.h */,
+				1D3623250D0F684500981E51 /* LollipopClientV02AppDelegate.m */,
+				468F3187126A29BE0080689B /* KidAnnotationView.h */,
+				468F3188126A29BE0080689B /* KidAnnotationView.m */,
+				468F3189126A29BE0080689B /* KidAnnotation.h */,
+				468F318A126A29BE0080689B /* KidAnnotation.m */,
+				46D501D9126D6B930089C028 /* KidAnnotationDelegate.h */,
+				468F318B126A29BE0080689B /* LocationReport.h */,
+				468F318C126A29BE0080689B /* MapViewContext.h */,
+				468F318D126A29BE0080689B /* MapViewContext.m */,
+				4698D1FE126ACC0900E1F9FA /* Resources.h */,
+				4698D1FF126ACC0900E1F9FA /* Resources.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LollipopClientV02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7D1E8BFC1558AED400B603DD /* JSON */,
+				468F3181126A29890080689B /* Tools */,
+				468F3156126A25550080689B /* Views */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* LollipopClientV02_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468F3193126A29D80080689B /* BlueArea200x200.png */,
+				468F3194126A29D80080689B /* GreenDot.png */,
+				468F3195126A29D80080689B /* LightBlueDot.png */,
+				468F3196126A29D80080689B /* RedDot.png */,
+				468F3197126A29D80080689B /* BlueArrow.png */,
+				468F3198126A29D80080689B /* BlueDot.png */,
+				468F3199126A29D80080689B /* LocateBlue.png */,
+				468F319A126A29D80080689B /* PinkDot.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* LollipopClientV02-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				468F32AD126A50C20080689B /* MapKit.framework */,
+				468F32AF126A50CA0080689B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		468F3156126A25550080689B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				468F3105126A1F4F0080689B /* RootView.h */,
+				468F3106126A1F4F0080689B /* RootView.m */,
+				468F3107126A1F4F0080689B /* RootView.xib */,
+				468F3186126A29BE0080689B /* HttpDelegate.h */,
+				468F3157126A25610080689B /* DeviceListView.h */,
+				468F3158126A25610080689B /* DeviceListView.m */,
+				468F3159126A25610080689B /* DeviceListView.xib */,
+				468F315A126A25610080689B /* AddDeviceView.h */,
+				468F315B126A25610080689B /* AddDeviceView.m */,
+				468F315C126A25610080689B /* AddDeviceView.xib */,
+				4698D267126AD66200E1F9FA /* AddDeviceDelegate.h */,
+				4698D1F8126ACBDB00E1F9FA /* DotPickerView.h */,
+				4698D1F9126ACBDB00E1F9FA /* DotPickerView.m */,
+				4698D1FA126ACBDB00E1F9FA /* DotPickerView.xib */,
+				4698D1FD126ACBF800E1F9FA /* DotPickerDelegate.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		468F3181126A29890080689B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				468F31A3126A29ED0080689B /* TransportLayer.h */,
+				468F31A4126A29ED0080689B /* TransportLayer.m */,
+				468F31A5126A29ED0080689B /* TransportLayerDelegate.h */,
+				468F3182126A29BE0080689B /* HttpController.h */,
+				468F3183126A29BE0080689B /* HttpController.m */,
+				468F3184126A29BE0080689B /* HttpConnection.h */,
+				468F3185126A29BE0080689B /* HttpConnection.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		7D1E8BFC1558AED400B603DD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7D1E8BFD1558AED400B603DD /* JSON.h */,
+				7D1E8BFE1558AED400B603DD /* NSObject+SBJSON.h */,
+				7D1E8BFF1558AED400B603DD /* NSObject+SBJSON.m */,
+				7D1E8C001558AED400B603DD /* NSString+SBJSON.h */,
+				7D1E8C011558AED400B603DD /* NSString+SBJSON.m */,
+				7D1E8C021558AED400B603DD /* SBJSON.h */,
+				7D1E8C031558AED400B603DD /* SBJSON.m */,
+				7D1E8C041558AED400B603DD /* SBJsonBase.h */,
+				7D1E8C051558AED400B603DD /* SBJsonBase.m */,
+				7D1E8C061558AED400B603DD /* SBJsonParser.h */,
+				7D1E8C071558AED400B603DD /* SBJsonParser.m */,
+				7D1E8C081558AED400B603DD /* SBJsonWriter.h */,
+				7D1E8C091558AED400B603DD /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LollipopClientV02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LollipopClientV02" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LollipopClientV02;
+			productName = LollipopClientV02;
+			productReference = 1D6058910D05DD3D006BFB54 /* LollipopClientV02.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LollipopClientV02" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LollipopClientV02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				468F3109126A1F4F0080689B /* RootView.xib in Resources */,
+				468F315E126A25610080689B /* DeviceListView.xib in Resources */,
+				468F3160126A25610080689B /* AddDeviceView.xib in Resources */,
+				468F319B126A29D80080689B /* BlueArea200x200.png in Resources */,
+				468F319C126A29D80080689B /* GreenDot.png in Resources */,
+				468F319D126A29D80080689B /* LightBlueDot.png in Resources */,
+				468F319E126A29D80080689B /* RedDot.png in Resources */,
+				468F319F126A29D80080689B /* BlueArrow.png in Resources */,
+				468F31A0126A29D80080689B /* BlueDot.png in Resources */,
+				468F31A1126A29D80080689B /* LocateBlue.png in Resources */,
+				468F31A2126A29D80080689B /* PinkDot.png in Resources */,
+				4698D1FC126ACBDB00E1F9FA /* DotPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LollipopClientV02AppDelegate.m in Sources */,
+				468F3108126A1F4F0080689B /* RootView.m in Sources */,
+				468F315D126A25610080689B /* DeviceListView.m in Sources */,
+				468F315F126A25610080689B /* AddDeviceView.m in Sources */,
+				468F318E126A29BE0080689B /* HttpController.m in Sources */,
+				468F318F126A29BE0080689B /* HttpConnection.m in Sources */,
+				468F3190126A29BE0080689B /* KidAnnotationView.m in Sources */,
+				468F3191126A29BE0080689B /* KidAnnotation.m in Sources */,
+				468F3192126A29BE0080689B /* MapViewContext.m in Sources */,
+				468F31A6126A29ED0080689B /* TransportLayer.m in Sources */,
+				4698D1FB126ACBDB00E1F9FA /* DotPickerView.m in Sources */,
+				4698D200126ACC0900E1F9FA /* Resources.m in Sources */,
+				7D1E8C0A1558AED400B603DD /* NSObject+SBJSON.m in Sources */,
+				7D1E8C0B1558AED400B603DD /* NSString+SBJSON.m in Sources */,
+				7D1E8C0C1558AED400B603DD /* SBJSON.m in Sources */,
+				7D1E8C0D1558AED400B603DD /* SBJsonBase.m in Sources */,
+				7D1E8C0E1558AED400B603DD /* SBJsonParser.m in Sources */,
+				7D1E8C0F1558AED400B603DD /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LollipopClientV02_Prefix.pch;
+				INFOPLIST_FILE = "LollipopClientV02-Info.plist";
+				PRODUCT_NAME = LollipopClientV02;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LollipopClientV02_Prefix.pch;
+				INFOPLIST_FILE = "LollipopClientV02-Info.plist";
+				PRODUCT_NAME = LollipopClientV02;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos5.1;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos5.1;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LollipopClientV02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LollipopClientV02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

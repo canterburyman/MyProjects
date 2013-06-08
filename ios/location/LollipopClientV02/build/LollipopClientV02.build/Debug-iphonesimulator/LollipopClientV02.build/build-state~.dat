@@ -1,0 +1,867 @@
+TLollipopClientV02
+v7
+r0
+t314318201.358346
+cCheck dependencies
+cProcessInfoPlistFile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/Info.plist LollipopClientV02-Info.plist
+cCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MainWindow.xib
+cCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.xib
+cCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.xib
+cCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.xib
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/BlueArea200x200.png BlueArea200x200.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/GreenDot.png GreenDot.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/LightBlueDot.png LightBlueDot.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/RedDot.png RedDot.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/BlueArrow.png BlueArrow.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/BlueDot.png BlueDot.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/LocateBlue.png LocateBlue.png
+cCpResource build/Debug-iphonesimulator/LollipopClientV02.app/PinkDot.png PinkDot.png
+cCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.xib
+cProcessPCH /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch.gch LollipopClientV02_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/main.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02AppDelegate.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/RootView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DeviceListView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/AddDeviceView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpController.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpConnection.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotationView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotation.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/MapViewContext.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/TransportLayer.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DotPickerView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/Resources.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02 normal i386
+cGenerateDSYMFile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app.dSYM /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02
+cTouch /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BD1D4D20000000000061790
+t1272042706
+s399248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h
+c000000004BD1D4C80000000000001586
+t1272042696
+s5510
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BD1D4C800000000000001AF
+t1272042696
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004BD1D83E000000000000017D
+t1272043582
+s381
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004BD1D85F0000000000185260
+t1272043615
+s1593952
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceDelegate.h
+c000000004CBA9EEF0000000000000134
+t1287298799
+s308
+i<UIKit/UIKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.h
+c000000004CBA95EC0000000000000355
+t1287296492
+s853
+i<UIKit/UIKit.h>
+i"DotPickerView.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m
+c000000004CBA9DF50000000000000C27
+t1287298549
+s3111
+i"AddDeviceView.h"
+i"Resources.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.xib
+c000000004CBA943C00000000000085C0
+t1287296060
+s34240
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueArea200x200.png
+c000000004CA4C15E0000000000001BF5
+t1285865822
+s7157
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueArrow.png
+c000000004CA77981000000000000037A
+t1286044033
+s890
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueDot.png
+c000000004CA4BA3A0000000000000403
+t1285863994
+s1027
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m
+c000000004CBE737A0000000000000C68
+t1287549818
+s3176
+i"KidAnnotation.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m
+c000000004CBE7B4B0000000000001285
+t1287551819
+s4741
+i"KidAnnotationView.h"
+i"KidAnnotation.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m
+c000000004CA7B4E700000000000000CA
+t1286059239
+s202
+i"MapViewContext.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/KidAnnotationDelegate.h
+c000000004CBD45D0000000000000019A
+t1287472592
+s410
+i<UIKit/UIKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.h
+c000000004CB9EA510000000000000183
+t1287252561
+s387
+i<UIKit/UIKit.h>
+i"RootView.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m
+c000000004CC0ADC90000000000000827
+t1287695817
+s2087
+i"LollipopClientV02AppDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.h
+c000000004CB745F300000000000000E9
+t1287079411
+s233
+i<Foundation/Foundation.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m
+c000000004CB7492E00000000000001A8
+t1287080238
+s424
+i"Resources.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.h
+c000000004CC0BCFA0000000000000E8D
+t1287699706
+s3725
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"TransportLayer.h"
+i"KidAnnotation.h"
+i<CoreLocation/CoreLocation.h>
+i<CoreLocation/CLLocation.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m
+c000000004CC0C48B0000000000004A6B
+t1287701643
+s19051
+i"RootView.h"
+i"DeviceListView.h"
+i"KidAnnotationView.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.xib
+c000000004CBFC66A000000000000749F
+t1287636586
+s29855
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.h
+c000000004CC0B67800000000000002F2
+t1287698040
+s754
+i<UIKit/UIKit.h>
+i"AddDeviceView.h"
+i"RootView.h"
+i"AddDeviceDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m
+c000000004CC0BD240000000000001742
+t1287699748
+s5954
+i"DeviceListView.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.xib
+c000000004CBA922900000000000053D0
+t1287295529
+s21456
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerDelegate.h
+c000000004CB88C620000000000000122
+t1287162978
+s290
+i<UIKit/UIKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.h
+c000000004CBA9CBB000000000000023B
+t1287298235
+s571
+i<UIKit/UIKit.h>
+i"DotPickerDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m
+c000000004CBA9D7A0000000000000A68
+t1287298426
+s2664
+i"DotPickerView.h"
+i"Resources.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.xib
+c000000004CB74B92000000000005C14B
+t1287080850
+s377163
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/GreenDot.png
+c000000004CA4BC800000000000000413
+t1285864576
+s1043
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.h
+c000000004CA1871700000000000002C3
+t1285654295
+s707
+i<Foundation/Foundation.h>
+i"HttpDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m
+c000000004CA173D9000000000000024B
+t1285649369
+s587
+i"HttpConnection.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.h
+c000000004CA18F550000000000000520
+t1285656405
+s1312
+i<Foundation/Foundation.h>
+i"HttpConnection.h"
+i"HttpDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m
+c000000004CA25DDF0000000000001866
+t1285709279
+s6246
+i"HttpController.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpDelegate.h
+c000000004CA186F0000000000000011A
+t1285654256
+s282
+i<UIKit/UIKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/KidAnnotation.h
+c000000004CBD4C560000000000000AED
+t1287474262
+s2797
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i"LocationReport.h"
+i"KidAnnotationDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/KidAnnotationView.h
+c000000004CBD46D200000000000003D9
+t1287472850
+s985
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"KidAnnotation.h"
+i"KidAnnotationDelegate.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LightBlueDot.png
+c000000004CA564F400000000000003FF
+t1285907700
+s1023
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LocateBlue.png
+c000000004CAADB85000000000000049A
+t1286265733
+s1178
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LocationReport.h
+c000000004CAC30B70000000000000171
+t1286353079
+s369
+i<UIKit/UIKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LollipopClientV02_Prefix.pch
+c000000004CB9E79D00000000000000CB
+t1287251869
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MainWindow.xib
+c000000004CB9E79D0000000000003E9F
+t1287251869
+s16031
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MapViewContext.h
+c000000004CA7B4F500000000000000F6
+t1286059253
+s246
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/PinkDot.png
+c000000004CA4BAE50000000000000370
+t1285864165
+s880
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/RedDot.png
+c000000004CA565340000000000000407
+t1285907764
+s1031
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.h
+c000000004CA7AAFF0000000000000368
+t1286056703
+s872
+i<Foundation/Foundation.h>
+i"TransportLayerDelegate.h"
+i"HttpConnection.h"
+i"LocationReport.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m
+c000000004CC0C8080000000000000AC8
+t1287702536
+s2760
+i"TransportLayer.h"
+i"HttpController.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayerDelegate.h
+c000000004CA7A92F0000000000000176
+t1286056239
+s374
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"LocationReport.h"
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app
+t1292625401
+s612
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app.dSYM
+t1292625401
+s102
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/AddDeviceView.nib
+t1292625399
+s2862
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/BlueArea200x200.png
+t1292625399
+s7157
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/BlueArrow.png
+t1292625399
+s890
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/BlueDot.png
+t1292625399
+s1027
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/DeviceListView.nib
+t1292625399
+s1223
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/DotPickerView.nib
+t1292625399
+s1691
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/GreenDot.png
+t1292625399
+s1043
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/Info.plist
+t1292625398
+s844
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LightBlueDot.png
+t1292625399
+s1023
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LocateBlue.png
+t1292625399
+s1178
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02
+t1292625401
+s104480
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/MainWindow.nib
+t1292625398
+s994
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/PinkDot.png
+t1292625399
+s880
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/PkgInfo
+t1292625398
+s8
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/RedDot.png
+t1292625399
+s1031
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/RootView.nib
+t1292625398
+s2185
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/AddDeviceView.o
+t1292625400
+s46116
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DeviceListView.o
+t1292625400
+s60424
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DotPickerView.o
+t1292625400
+s44496
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpConnection.o
+t1292625400
+s11316
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpController.o
+t1292625400
+s28088
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotation.o
+t1292625400
+s37748
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotationView.o
+t1292625400
+s26524
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02.LinkFileList
+c000000004D0BE5F6000000000000084D
+t1292625398
+s2125
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02AppDelegate.o
+t1292625400
+s49708
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/MapViewContext.o
+t1292625400
+s5120
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/Resources.o
+t1292625400
+s7524
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/RootView.o
+t1292625400
+s93780
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/TransportLayer.o
+t1292625400
+s16008
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/main.o
+t1292625400
+s6328
+
+N/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m
+c000000004CB9E79D0000000000000166
+t1287251869
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch.gch
+t1292625400
+s13825936
+
+NLollipopClientV02-Info.plist
+c000000004CB9E79D00000000000004D6
+t1287251869
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314318198#314318198#0(0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/AddDeviceView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.504311
+e314318200.598050
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/AddDeviceView.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m: In function '-[AddDeviceView save:]':
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: no '-saveNewDevice:nickname:dotImageName:' method found
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: (Messages without a matching method signature
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: will be assumed to return 'id' and accept
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: '...' as arguments.)
+lSLF07#2@74"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m314318200#314318200#0(591"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m: In function '-[AddDeviceView save:]':/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: no '-saveNewDevice:nickname:dotImageName:' method found/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: (Messages without a matching method signature/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: will be assumed to return 'id' and accept/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m:26: warning: '...' as arguments.)2(22@55"No '-saveNewDevice:nickname:dotImageName:' method found314318200#106#136#0(6@66"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m308991349#26#0#26#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314318200#242#126#0(6@66"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m308991349#26#0#26#0#0"0(0#0#66"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m8603775392#2305"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/AddDeviceView.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DeviceListView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.398640
+e314318200.504200
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DeviceListView.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m314318200#314318200#0(0"0(0#0#67"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m8602349984#2307"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DeviceListView.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DotPickerView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.839343
+e314318200.924593
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DotPickerView.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m314318200#314318200#0(0"0(0#0#66"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m8604165696#2305"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/DotPickerView.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpConnection.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.598156
+e314318200.681274
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpConnection.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m314318200#314318200#0(0"0(0#0#67"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m8602234784#2307"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpConnection.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpConnection.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpController.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.572195
+e314318200.686807
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpController.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m314318200#314318200#0(0"0(0#0#67"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m8599568192#2307"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/HttpController.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/HttpController.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotation.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.686904
+e314318200.796926
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotation.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m: In function '-[KidAnnotation dealloc]':
+o/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m:126: warning: '-release' not found in protocol(s)
+lSLF07#2@85"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m314318200#314318200#0(247"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m: In function '-[KidAnnotation dealloc]':/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m:126: warning: '-release' not found in protocol(s)1(22@35"'-release' not found in protocol(s)314318200#119#128#0(6@77"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m309242618#126#0#126#0#28"'*' not found in protocol(s)0(0#0#77"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m8599678912#2316"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotation.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotation.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotationView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.681393
+e314318200.767805
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotationView.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m314318200#314318200#0(0"0(0#0#81"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m8603924704#2324"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../KidAnnotationView.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/KidAnnotationView.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02AppDelegate.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.282759
+e314318200.398527
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02AppDelegate.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m314318200#314318200#0(0"0(0#0#89"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m8599432832#2343"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/LollipopClientV02AppDelegate.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02AppDelegate.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/MapViewContext.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.767917
+e314318200.839242
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/MapViewContext.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m314318200#314318200#0(0"0(0#0#78"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m8601520992#2318"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/../MapViewContext.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/MapViewContext.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/Resources.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.891815
+e314318200.942016
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/Resources.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m314318200#314318200#0(0"0(0#0#70"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m8606602432#2305"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/Resources.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/Resources.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/RootView.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.356113
+e314318200.572090
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/RootView.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m314318200#314318200#0(0"0(0#0#69"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m8604540064#2303"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/RootView.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/TransportLayer.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.797033
+e314318200.891703
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/TransportLayer.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m314318200#314318200#0(0"0(0#0#67"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m8590569312#2307"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/TransportLayer.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/TransportLayer.o0#
+
+CCompileC build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/main.o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318200.281707
+e314318200.356006
+r1
+xCompileC
+xbuild/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/main.o
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m314318200#314318200#0(0"0(0#0#57"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m8598766112#2287"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -include /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/main.m -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.xib
+s314318198.892654
+e314318199.447220
+r1
+xCompileXIB
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.xib
+lSLF07#2@28"CompileXIB AddDeviceView.xib314318198#314318199#0(0"0(0#0#68"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.xib8600314240#622"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/AddDeviceView.nib /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/AddDeviceView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.xib
+s314318198.384382
+e314318198.892566
+r1
+xCompileXIB
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/RootView.xib314318198#314318198#0(504"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#71"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.xib8602406688#620"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/RootView.nib /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/Classes/RootView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.xib
+s314318198.786439
+e314318199.193182
+r1
+xCompileXIB
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.xib
+lSLF07#2@29"CompileXIB DeviceListView.xib314318198#314318199#0(0"0(0#0#69"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.xib8601342912#624"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/DeviceListView.nib /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DeviceListView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.xib
+s314318199.206526
+e314318199.661972
+r1
+xCompileXIB
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.xib
+lSLF07#2@28"CompileXIB DotPickerView.xib314318199#314318199#0(0"0(0#0#68"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.xib8604170944#622"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/DotPickerView.nib /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/DotPickerView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MainWindow.xib
+s314318198.383688
+e314318198.786348
+r1
+xCompileXIB
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib314318198#314318198#0(0"0(0#0#65"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MainWindow.xib8603791200#616"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/MainWindow.nib /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/BlueArea200x200.png BlueArea200x200.png
+s314318199.193274
+e314318199.208274
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/BlueArea200x200.png
+xBlueArea200x200.png
+lSLF07#2@24"Copy BlueArea200x200.png314318199#314318199#0(0"0(0#0#70"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueArea200x200.png8599246624#509"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueArea200x200.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/BlueArrow.png BlueArrow.png
+s314318199.199513
+e314318199.210323
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/BlueArrow.png
+xBlueArrow.png
+lSLF07#2@18"Copy BlueArrow.png314318199#314318199#0(0"0(0#0#64"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueArrow.png8590412960#503"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueArrow.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/BlueDot.png BlueDot.png
+s314318199.201157
+e314318199.210471
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/BlueDot.png
+xBlueDot.png
+lSLF07#2@16"Copy BlueDot.png314318199#314318199#0(0"0(0#0#62"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueDot.png8606191776#501"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/BlueDot.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/GreenDot.png GreenDot.png
+s314318199.194417
+e314318199.208395
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/GreenDot.png
+xGreenDot.png
+lSLF07#2@17"Copy GreenDot.png314318199#314318199#0(0"0(0#0#63"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/GreenDot.png8598991296#502"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/GreenDot.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/LightBlueDot.png LightBlueDot.png
+s314318199.196056
+e314318199.208502
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/LightBlueDot.png
+xLightBlueDot.png
+lSLF07#2@21"Copy LightBlueDot.png314318199#314318199#0(0"0(0#0#67"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LightBlueDot.png8598837504#506"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LightBlueDot.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/LocateBlue.png LocateBlue.png
+s314318199.202825
+e314318199.214495
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/LocateBlue.png
+xLocateBlue.png
+lSLF07#2@19"Copy LocateBlue.png314318199#314318199#0(0"0(0#0#65"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LocateBlue.png8606007680#504"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LocateBlue.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/PinkDot.png PinkDot.png
+s314318199.204891
+e314318199.218715
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/PinkDot.png
+xPinkDot.png
+lSLF07#2@16"Copy PinkDot.png314318199#314318199#0(0"0(0#0#62"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/PinkDot.png8605704032#501"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/PinkDot.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CCpResource build/Debug-iphonesimulator/LollipopClientV02.app/RedDot.png RedDot.png
+s314318199.197822
+e314318199.208785
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LollipopClientV02.app/RedDot.png
+xRedDot.png
+lSLF07#2@15"Copy RedDot.png314318199#314318199#0(0"0(0#0#61"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/RedDot.png8595648864#500"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/RedDot.png /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+
+CGenerateDSYMFile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app.dSYM /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02
+s314318201.251648
+e314318201.326245
+r1
+xGenerateDSYMFile
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app.dSYM
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/LollipopClientV02.app.dSYM build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02314318201#314318201#0(0"0(0#0#118"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV028601518528#449"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02 -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app.dSYM0#
+
+CLd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02 normal i386
+s314318200.942116
+e314318201.251546
+r1
+xLd
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02
+xnormal
+xi386
+lSLF07#2@123"Link /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV02314318200#314318201#0(0"0(0#0#0"8604171424#1052"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -filelist /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/Objects-normal/i386/LollipopClientV02.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/LollipopClientV020#
+
+CProcessInfoPlistFile /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/Info.plist LollipopClientV02-Info.plist
+s314318198.379996
+e314318198.383600
+r1
+xProcessInfoPlistFile
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/Info.plist
+xLollipopClientV02-Info.plist
+lSLF07#2@36"Process LollipopClientV02-Info.plist314318198#314318198#0(0"0(0#0#79"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LollipopClientV02-Info.plist8604504512#545"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LollipopClientV02-Info.plist -genpkginfo /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app/Info.plist0#
+
+CProcessPCH /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch.gch LollipopClientV02_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314318199.662103
+e314318200.281521
+r1
+xProcessPCH
+x/var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch.gch
+xLollipopClientV02_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile LollipopClientV02_Prefix.pch314318199#314318200#0(0"0(0#0#79"/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LollipopClientV02_Prefix.pch8601225216#2157"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-generated-files.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-own-target-headers.hmap -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-all-target-headers.hmap -iquote /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/LollipopClientV02-project-headers.hmap -F/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/include -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources/i386 -I/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/LollipopClientV02.build/Debug-iphonesimulator/LollipopClientV02.build/DerivedSources -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/LollipopClientV02_Prefix.pch -o /var/folders/qO/qOIHlk-yFFq5ujnIRTTohE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LollipopClientV02_Prefix-cliixieuuddmudeutbyerepaqobf/LollipopClientV02_Prefix.pch.gch0#
+
+CTouch /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app
+s314318201.326337
+e314318201.358297
+r1
+xTouch
+x/Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app
+lSLF07#2@106"Touch /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app314318201#314318201#0(0"0(0#0#0"8601041664#312"    cd /Users/aakwxk/src/lollipop/trunk/LollipopClientV02    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/aakwxk/src/lollipop/trunk/LollipopClientV02/build/Debug-iphonesimulator/LollipopClientV02.app0#
+

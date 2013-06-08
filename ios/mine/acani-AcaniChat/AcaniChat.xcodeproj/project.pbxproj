@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363AE19613EC32A000F3C4B1 /* ChatBubbleGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 363AE19413EC32A000F3C4B1 /* ChatBubbleGray@2x.png */; };
+		363AE19713EC32A000F3C4B1 /* ChatBubbleGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 363AE19513EC32A000F3C4B1 /* ChatBubbleGreen@2x.png */; };
+		C92BF85013631710003B20F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BF84F13631710003B20F6 /* UIKit.framework */; };
+		C92BF85213631710003B20F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BF85113631710003B20F6 /* Foundation.framework */; };
+		C92BF85413631710003B20F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BF85313631710003B20F6 /* CoreGraphics.framework */; };
+		C92BF85613631710003B20F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BF85513631710003B20F6 /* CoreData.framework */; };
+		C92BF8C31363285B003B20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92BF8B81363285A003B20F6 /* AppDelegate.m */; };
+		C92BF8C41363285B003B20F6 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92BF8BB1363285A003B20F6 /* ChatViewController.m */; };
+		C92BF8C51363285B003B20F6 /* AcaniChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C92BF8BD1363285A003B20F6 /* AcaniChat.xcdatamodeld */; };
+		C92D07A01363417A00954810 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D079F1363417A00954810 /* AudioToolbox.framework */; };
+		C92D07A7136344BE00954810 /* basicsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C92D07A2136344BE00954810 /* basicsound.wav */; };
+		C92D07A8136344BE00954810 /* ChatBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C92D07A3136344BE00954810 /* ChatBar.png */; };
+		C92D07A9136344BE00954810 /* ChatBubbleGray.png in Resources */ = {isa = PBXBuildFile; fileRef = C92D07A4136344BE00954810 /* ChatBubbleGray.png */; };
+		C92D07AA136344BE00954810 /* ChatBubbleGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C92D07A5136344BE00954810 /* ChatBubbleGreen.png */; };
+		C92D07AB136344BE00954810 /* SendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C92D07A6136344BE00954810 /* SendButton.png */; };
+		C92D07B713634A0400954810 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D07B613634A0400954810 /* NSString+Additions.m */; };
+		C92D07BB13634B2800954810 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D07BA13634B2800954810 /* Message.m */; };
+		C99F265E139AB68900192BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99F265C139AB68900192BE5 /* main.m */; };
+		C9C90E031363743E009626F1 /* ConversationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C90E021363743E009626F1 /* ConversationsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363AE19413EC32A000F3C4B1 /* ChatBubbleGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ChatBubbleGray@2x.png"; sourceTree = "<group>"; };
+		363AE19513EC32A000F3C4B1 /* ChatBubbleGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ChatBubbleGreen@2x.png"; sourceTree = "<group>"; };
+		7D9BFCBE15B92FBB00F4000C /* Conversation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
+		7D9BFCBF15B92FBB00F4000C /* Conversation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		C92BF84B13631710003B20F6 /* AcaniChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcaniChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92BF84F13631710003B20F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C92BF85113631710003B20F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C92BF85313631710003B20F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C92BF85513631710003B20F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C92BF8B71363285A003B20F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C92BF8B81363285A003B20F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C92BF8BA1363285A003B20F6 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		C92BF8BB1363285A003B20F6 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		C92BF8BE1363285A003B20F6 /* AcaniChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AcaniChat.xcdatamodel; sourceTree = "<group>"; };
+		C92D079F1363417A00954810 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C92D07A2136344BE00954810 /* basicsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = basicsound.wav; sourceTree = "<group>"; };
+		C92D07A3136344BE00954810 /* ChatBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatBar.png; sourceTree = "<group>"; };
+		C92D07A4136344BE00954810 /* ChatBubbleGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatBubbleGray.png; sourceTree = "<group>"; };
+		C92D07A5136344BE00954810 /* ChatBubbleGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatBubbleGreen.png; sourceTree = "<group>"; };
+		C92D07A6136344BE00954810 /* SendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SendButton.png; sourceTree = "<group>"; };
+		C92D07B513634A0400954810 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		C92D07B613634A0400954810 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		C92D07B913634B2800954810 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C92D07BA13634B2800954810 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C92D07C613634FC900954810 /* MIT-LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MIT-LICENSE"; sourceTree = "<group>"; };
+		C92D07C713634FC900954810 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C92D07C813634FC900954810 /* TODO.taskpaper */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO.taskpaper; sourceTree = "<group>"; };
+		C99F265A139AB68900192BE5 /* AcaniChat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AcaniChat-Info.plist"; sourceTree = "<group>"; };
+		C99F265B139AB68900192BE5 /* AcaniChat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AcaniChat-Prefix.pch"; sourceTree = "<group>"; };
+		C99F265C139AB68900192BE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C90E011363743E009626F1 /* ConversationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationsViewController.h; sourceTree = "<group>"; };
+		C9C90E021363743E009626F1 /* ConversationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92BF84813631710003B20F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92D07A01363417A00954810 /* AudioToolbox.framework in Frameworks */,
+				C92BF85013631710003B20F6 /* UIKit.framework in Frameworks */,
+				C92BF85213631710003B20F6 /* Foundation.framework in Frameworks */,
+				C92BF85413631710003B20F6 /* CoreGraphics.framework in Frameworks */,
+				C92BF85613631710003B20F6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92BF84013631710003B20F6 = {
+			isa = PBXGroup;
+			children = (
+				C92BF8B61363285A003B20F6 /* Application */,
+				C92D07B413634A0400954810 /* Categories */,
+				C92BF84E13631710003B20F6 /* Frameworks */,
+				C92BF84C13631710003B20F6 /* Products */,
+				C92D07A1136344BE00954810 /* Resources */,
+				C99F2659139AB68900192BE5 /* Supporting Files */,
+				C92D07C613634FC900954810 /* MIT-LICENSE */,
+				C92D07C713634FC900954810 /* README.md */,
+				C92D07C813634FC900954810 /* TODO.taskpaper */,
+			);
+			sourceTree = "<group>";
+		};
+		C92BF84C13631710003B20F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92BF84B13631710003B20F6 /* AcaniChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92BF84E13631710003B20F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92D079F1363417A00954810 /* AudioToolbox.framework */,
+				C92BF84F13631710003B20F6 /* UIKit.framework */,
+				C92BF85113631710003B20F6 /* Foundation.framework */,
+				C92BF85313631710003B20F6 /* CoreGraphics.framework */,
+				C92BF85513631710003B20F6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92BF8B61363285A003B20F6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C92BF8B71363285A003B20F6 /* AppDelegate.h */,
+				C92BF8B81363285A003B20F6 /* AppDelegate.m */,
+				C92BF8B91363285A003B20F6 /* Controllers */,
+				C92BF8BC1363285A003B20F6 /* Models */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C92BF8B91363285A003B20F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C92BF8BA1363285A003B20F6 /* ChatViewController.h */,
+				C92BF8BB1363285A003B20F6 /* ChatViewController.m */,
+				C9C90E011363743E009626F1 /* ConversationsViewController.h */,
+				C9C90E021363743E009626F1 /* ConversationsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C92BF8BC1363285A003B20F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C92BF8BD1363285A003B20F6 /* AcaniChat.xcdatamodeld */,
+				7D9BFCBE15B92FBB00F4000C /* Conversation.h */,
+				7D9BFCBF15B92FBB00F4000C /* Conversation.m */,
+				C92D07B913634B2800954810 /* Message.h */,
+				C92D07BA13634B2800954810 /* Message.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C92D07A1136344BE00954810 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C92D07A2136344BE00954810 /* basicsound.wav */,
+				C92D07A3136344BE00954810 /* ChatBar.png */,
+				C92D07A4136344BE00954810 /* ChatBubbleGray.png */,
+				363AE19413EC32A000F3C4B1 /* ChatBubbleGray@2x.png */,
+				C92D07A5136344BE00954810 /* ChatBubbleGreen.png */,
+				363AE19513EC32A000F3C4B1 /* ChatBubbleGreen@2x.png */,
+				C92D07A6136344BE00954810 /* SendButton.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C92D07B413634A0400954810 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C92D07B513634A0400954810 /* NSString+Additions.h */,
+				C92D07B613634A0400954810 /* NSString+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C99F2659139AB68900192BE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99F265A139AB68900192BE5 /* AcaniChat-Info.plist */,
+				C99F265B139AB68900192BE5 /* AcaniChat-Prefix.pch */,
+				C99F265C139AB68900192BE5 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92BF84A13631710003B20F6 /* AcaniChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92BF87113631711003B20F6 /* Build configuration list for PBXNativeTarget "AcaniChat" */;
+			buildPhases = (
+				C92BF84713631710003B20F6 /* Sources */,
+				C92BF84813631710003B20F6 /* Frameworks */,
+				C92BF84913631710003B20F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcaniChat;
+			productName = AcaniChat;
+			productReference = C92BF84B13631710003B20F6 /* AcaniChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92BF84213631710003B20F6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C92BF84513631710003B20F6 /* Build configuration list for PBXProject "AcaniChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C92BF84013631710003B20F6;
+			productRefGroup = C92BF84C13631710003B20F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92BF84A13631710003B20F6 /* AcaniChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92BF84913631710003B20F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92D07A7136344BE00954810 /* basicsound.wav in Resources */,
+				C92D07A8136344BE00954810 /* ChatBar.png in Resources */,
+				C92D07A9136344BE00954810 /* ChatBubbleGray.png in Resources */,
+				363AE19613EC32A000F3C4B1 /* ChatBubbleGray@2x.png in Resources */,
+				C92D07AA136344BE00954810 /* ChatBubbleGreen.png in Resources */,
+				363AE19713EC32A000F3C4B1 /* ChatBubbleGreen@2x.png in Resources */,
+				C92D07AB136344BE00954810 /* SendButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92BF84713631710003B20F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92BF8C31363285B003B20F6 /* AppDelegate.m in Sources */,
+				C92BF8C41363285B003B20F6 /* ChatViewController.m in Sources */,
+				C92BF8C51363285B003B20F6 /* AcaniChat.xcdatamodeld in Sources */,
+				C92D07B713634A0400954810 /* NSString+Additions.m in Sources */,
+				C92D07BB13634B2800954810 /* Message.m in Sources */,
+				C99F265E139AB68900192BE5 /* main.m in Sources */,
+				C9C90E031363743E009626F1 /* ConversationsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C92BF86F13631711003B20F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C92BF87013631711003B20F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C92BF87213631711003B20F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/AcaniChat-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/AcaniChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C92BF87313631711003B20F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/AcaniChat-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/AcaniChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92BF84513631710003B20F6 /* Build configuration list for PBXProject "AcaniChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92BF86F13631711003B20F6 /* Debug */,
+				C92BF87013631711003B20F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92BF87113631711003B20F6 /* Build configuration list for PBXNativeTarget "AcaniChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92BF87213631711003B20F6 /* Debug */,
+				C92BF87313631711003B20F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C92BF8BD1363285A003B20F6 /* AcaniChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C92BF8BE1363285A003B20F6 /* AcaniChat.xcdatamodel */,
+			);
+			currentVersion = C92BF8BE1363285A003B20F6 /* AcaniChat.xcdatamodel */;
+			path = AcaniChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C92BF84213631710003B20F6 /* Project object */;
+}

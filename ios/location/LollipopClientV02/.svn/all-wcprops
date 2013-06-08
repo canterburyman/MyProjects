@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/oem_lollipop/!svn/ver/5/trunk/LollipopClientV02
+END
+TransportLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/TransportLayer.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/main.m
+END
+DeviceListView.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DeviceListView.m
+END
+AddDeviceView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/AddDeviceView.xib
+END
+TransportLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/TransportLayer.m
+END
+BlueArrow.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/BlueArrow.png
+END
+AddDeviceDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/AddDeviceDelegate.h
+END
+AddDeviceView.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/oem_lollipop/!svn/ver/5/trunk/LollipopClientV02/AddDeviceView.h
+END
+LocationReport.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/LocationReport.h
+END
+PinkDot.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/PinkDot.png
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/MainWindow.xib
+END
+AddDeviceView.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/AddDeviceView.m
+END
+BlueArea200x200.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/BlueArea200x200.png
+END
+LocateBlue.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/LocateBlue.png
+END
+RedDot.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/RedDot.png
+END
+HttpController.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/HttpController.h
+END
+HttpController.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/HttpController.m
+END
+BlueDot.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/BlueDot.png
+END
+KidAnnotationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/KidAnnotationView.h
+END
+HttpConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/HttpConnection.h
+END
+KidAnnotationView.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/KidAnnotationView.m
+END
+KidAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/KidAnnotation.h
+END
+HttpConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/HttpConnection.m
+END
+GreenDot.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/GreenDot.png
+END
+KidAnnotation.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/oem_lollipop/!svn/ver/5/trunk/LollipopClientV02/KidAnnotation.m
+END
+HttpDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/HttpDelegate.h
+END
+DotPickerView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DotPickerView.xib
+END
+MapViewContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/MapViewContext.h
+END
+LollipopClientV02-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/LollipopClientV02-Info.plist
+END
+DotPickerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DotPickerDelegate.h
+END
+DotPickerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DotPickerView.h
+END
+LollipopClientV02_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/LollipopClientV02_Prefix.pch
+END
+DeviceListView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DeviceListView.xib
+END
+MapViewContext.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/MapViewContext.m
+END
+LightBlueDot.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/LightBlueDot.png
+END
+DotPickerView.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DotPickerView.m
+END
+TransportLayerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/TransportLayerDelegate.h
+END
+DeviceListView.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oem_lollipop/!svn/ver/4/trunk/LollipopClientV02/DeviceListView.h
+END
